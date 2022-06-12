@@ -1,6 +1,4 @@
 # Ruby on Rails Tutorial sample application
-Heroku is https://sheltered-woodland-53393.herokuapp.com/
-
 This is the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
