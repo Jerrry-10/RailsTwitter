@@ -68,9 +68,9 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     :user_name => ENV['MAILGUN_SMTP_LOGIN'],
     :password => ENV['MAILGUN_SMTP_PASSWORD'],
-    :domain => 'sheltered-woodland-53393.heroku.com',
-    :address => 'smtp.mailgun.org',
-    :port => 587,
+    :domain => ENV['MAILGUN_DOMAIN'],
+    :address => ENV['MAILGUN_SMTP_SERVER'],
+    :port => ENV['MAILGUN_SMTP_PORT'],
     :authentication => :plain,
     :enable_starttls_auto => true
     }
