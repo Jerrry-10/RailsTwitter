@@ -65,7 +65,7 @@ class User < ApplicationRecord
         Micropost.where("user_id IN (#{following_ids})
                          OR user_id = :user_id", user_id: id)
                  .includes(:user, image_attachment: :blob)
-      end              
+    end              
     # Follows a user.
     def follow(other_user)
     following << other_user
