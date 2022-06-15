@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.5'
 
+             
 gem 'active_storage_validations', '0.8.9'
 gem 'bcrypt',                     '3.1.13'
 gem 'bootsnap',                   '1.7.2', require: false
@@ -14,7 +15,10 @@ gem 'jbuilder',                   '2.10.0'
 gem 'mini_magick',                '4.9.5'
 gem 'puma',                       '5.3.1'
 gem 'rails',                      '6.1.4.6'
+gem "redis"
+gem 'redis-rails'
 gem 'sass-rails',                 '6.0.0'
+gem 'sidekiq', "~> 6.5"
 gem 'turbolinks',                 '5.2.1'
 gem 'webpacker',                  '5.4.0'
 gem 'will_paginate',              '3.3.0'
