@@ -1,6 +1,7 @@
 # Ruby on Rails Tutorial sample application
 YOU CANNOT SIGNUP DUE TO A LIMITION WITH MAILGUN
 LOGIN USING THIS INFORMATION
+
 Email: Jerryaviles10@gmail.com
 PW: Password1
 
