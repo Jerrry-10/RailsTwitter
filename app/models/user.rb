@@ -56,7 +56,7 @@ class User < ApplicationRecord
   end
 
   def send_activation_email
-    UserMailer.account_activation(self).deliver_later
+    UserMailer.account_activation(self).deliver_now
   end
 
   def create_reset_digest
